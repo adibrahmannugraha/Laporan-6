@@ -2,9 +2,9 @@ package TUGAS1;
 
 public class Employee {
 
-    public String NAMA, JABATAN, STATUS;
-    public int TAHUNMASUK, TAHUN, IDKERJA, ANAK;
-    public double GAJI, BONUS, TUNJANGAN,TUNJANGANKELUARGA;
+    protected String NAMA, JABATAN, STATUS;
+    protected int TAHUNMASUK, TAHUN, IDKERJA, ANAK;
+    protected double GAJI, BONUS, TUNJANGAN,TUNJANGANKELUARGA;
     
     public Employee(int id, int masuk, String nama, String jabatan, String status, int anak) {
         IDKERJA = id;
